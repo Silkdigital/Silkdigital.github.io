@@ -114,7 +114,16 @@ span{
     color: var(--main-color);
 }
 
-
+.redirect-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #44dde2; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
 .home-contact h1{
     font-size: 5.6rem;
     font-weight: 700;
