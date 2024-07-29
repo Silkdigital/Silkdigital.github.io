@@ -17,6 +17,24 @@
     --text-color: #fff;
     --main-color: #0ef;
 }
+.phonetext {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50px;
+    visibility: collapse;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}
+
+@media only screen and (max-width: 414px) {
+    .text {
+        visibility: collapse;
+    }
+
+    .phonetext {
+        visibility: visible;
+    }
+}
 
 html{
     font-size: 62.5%;
